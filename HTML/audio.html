@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Audio</title>
+        <link rel="stylesheet" href="style_page.css" type="text/css">
+        <style type="text/css">
+            
+            header,nav,main,footer{
+                width: 100%;
+            }
+            main{
+                text-align: center;
+            }
+            section{
+                width: 40%;
+                height: 400px;
+                display: inline-block;
+                margin: 10px;
+                text-align: left;
+                overflow: auto;
+            }
+            audio,iframe{
+                margin-top: 30px;
+                display: block;
+                margin: 40 auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIO EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Audio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci a sapien vulputate dapibus quis non risus. Nulla iaculis arcu sit amet velit faucibus, nec ultrices augue venenatis. Aliquam nec sagittis metus. Quisque interdum tincidunt felis, sed feugiat dolor. Cras quis velit lobortis, vestibulum neque vestibulum, volutpat diam. Proin a ipsum at quam semper feugiat. Nunc sagittis imperdiet ex. Donec a maximus sem. Etiam consequat mauris id orci efficitur rhoncus. Nullam ac finibus tortor. Vestibulum mi urna, pretium imperdiet dignissim non, finibus vel leo. Duis non bibendum dui. Morbi nibh massa, lacinia et dignissim nec, varius accumsan ipsum. Vivamus.</p>
+                <audio controls muted autoplay>
+                    <source src="audios/hug_gato.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>
+                <p>In hac habitasse platea dictumst. Morbi commodo nunc aliquam vehicula eleifend. Sed eu mauris fermentum, sodales est vitae, maximus neque. Nunc mattis odio at finibus porttitor. </p>
+            </section>
+            <section>
+                <h2>Audio con reproducción automática y muted</h2>
+                <p>Praesent faucibus orci accumsan blandit laoreet. Suspendisse ullamcorper mollis leo sit amet convallis. Curabitur ultrices urna non congue gravida. Ut tortor lacus, interdum ut finibus ac, pretium a mi. Quisque pharetra magna ac aliquam vestibulum. Maecenas et ipsum ornare neque volutpat tempor ullamcorper et elit. Ut est ante, venenatis et felis fermentum, semper ultricies enim. Nam faucibus sem sit amet ultrices ullamcorper. Maecenas vel malesuada mauris. Mauris at felis ligula. Fusce ac eros consequat, dictum dolor vitae, porta risus. Nullam felis risus, varius ut eleifend vel, posuere ac ipsum. Sed ligula risus, consequat ut eros feugiat, efficitur mollis mi. </p>
+                <audio controls muted>
+                    <source src="audios/pato.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>
+            </section>
+            <section>
+                <h2>Auduio en ciclo</h2>
+                <p>Suspendisse potenti. Pellentesque vehicula purus finibus mollis malesuada. Integer ac mauris ultrices, lobortis justo in, accumsan neque. Nulla facilisi. Nunc vitae venenatis orci. Morbi ornare nulla ut lobortis sagittis. Ut sed nibh vehicula, dignissim turpis et, rutrum tortor. In congue metus sed odio porttitor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce aliquam blandit magna ac euismod. Donec condimentum mauris nec consectetur rutrum. Vivamus commodo, massa ut congue molestie, leo ipsum consequat nisi, eget tempor sapien orci in nibh. Curabitur ac magna ut elit pretium sagittis sed ac ante. Mauris mollis diam purus, et vulputate urna tempus id. Duis facilisis convallis sagittis. </p>
+                <audio controls loop>
+                    <source src="audios/gato_riendose.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio externo</h2>
+                <p>In hac habitasse platea dictumst. Morbi commodo nunc aliquam vehicula eleifend. Sed eu mauris fermentum, sodales est vitae, maximus neque. Nunc mattis odio at finibus porttitor. </p>
+                <iframe src="https://www.ivoox.com/player_ej_49821577_6_1.html?c1=b6a427" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio de Spotify</h2>
+                <p>Aenean volutpat, elit eget laoreet rhoncus, est metus fringilla turpis, vitae semper eros felis eget erat. Aliquam et felis vehicula, dictum nunc nec, blandit turpis. In ultrices neque id purus mollis, id sagittis nisl ultricies. Suspendisse bibendum egestas nulla. Sed gravida odio nisl, ut congue neque accumsan eu. Integer posuere nulla risus, nec molestie quam imperdiet at. Nullam elementum eleifend nisl id laoreet. Aenean ipsum mi, mattis elementum eleifend sodales, auctor nec velit. Curabitur finibus sodales nunc sed commodo. In dignissim vulputate congue. Cras quis enim non ante sagittis rhoncus et nec justo. Nullam scelerisque, enim et fermentum vulputate, sem mi imperdiet ante, quis congue quam odio non justo. Maecenas iaculis laoreet rutrum. </p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3qbcMEDN44a6vdxm12FkSM?utm_source=generator" width="70%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Erick Sánchez Ramírez</h5>
+        </footer>
+    </body>
+</html>

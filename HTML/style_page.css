@@ -1,0 +1,177 @@
+header{
+    background-color: #2c5560;
+    color: #fbffcd;
+}
+ <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header, nav, main, footer{
+                width: 1000px;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            header{
+                background-color: #2e4053;
+                height:auto;
+                text-align: center;
+                font-size: 10px;
+            }
+            nav{
+                height:90px;
+                background-color: #e5b45e;
+            }
+            ul{
+                list-style-type: none;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+            }
+            main{
+                height: auto;
+                background-color: #e7debd;
+            }
+            footer{
+                height: 40px;
+                background-color: #201E43;
+                text-align: center;
+            }
+            section{
+                width: 900px;
+                height: auto;
+                background-color: #283747;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+                padding: 40px;
+            }
+             img{
+                 display: block;
+                 width: 400px;
+                 height: auto;
+                 margin-top: 20px;
+                 margin-left: auto;
+                 margin-right: auto;
+             }
+            h2{
+                margin-bottom: 20px;
+            }
+            h1,h5{
+                text-align: center;
+            }
+            ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #201E43;
+            }
+            ul a:visited, ul a:link{
+                color: #134B70;
+            }
+            ul a:hover{
+               color: #508C9B;
+                font-weight: bolder;
+            }
+            main nav{
+                width: 900px;
+                text-align: center;
+            }
+            
+            nav li:hover, nav li a:hover{
+                background-color:#201E43;
+                color: #EEEEEE;
+            }
+            nav a:hover{
+                padding: -10px;
+            }
+}
+            #montañas_img{
+                width: 320px;
+                height: auto;
+                float: right;
+                padding-left: 20px;
+            }
+            #bosque_img{
+                width: 180px;
+                height: auto;
+                float: left;
+                padding-right: 20px;
+            }
+            #fondo_bosque{
+                width: auto
+            }
+            #coche_ico{
+                display: block;
+                width: 60px;
+                height: 60px;
+                float: right;
+                padding-right: 10px;
+                padding-top: 10px;
+                margin-left: auto;
+                margin-right: 90;
+            }
+            #pato_gif{
+                width: 30%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #img_filtros{
+               text-align: center; 
+            }
+            #img_filtros img{
+                width: 20%;
+                height: auto;
+                margin: 10px;
+                display: inline-block;
+            }
+            #filtro1{
+                filter: brightness(200%);
+            }
+            #filtro2{
+                filter: contrast(170%);
+            }
+            #filtro3{
+                filter: grayscale(100%);
+            }
+            #filtro4{
+            filter: sepia(100);
+            }
+            #filtro5{
+                filter: saturate(200%);
+            }
+            #filtro6{
+                filter: opacity(40%);
+            }
+            #filtro7{
+                filter: invert(100%);
+            }
+            #filtro8{
+                filter: blur(7px);
+            }
+            #filtro9{
+                filter: drop-shadow(8px 8px 8px black);
+            }
+            #filtro10{
+                filter: contrast(180%) drop-shadow(10px 10px 8px blue);
+            }
+            #filtro11{
+                filter: grayscale(100%) blur(2px);
+            }
+            #filtro12{
+                filter: opacity(60%) invert(100%) contrast(300%) drop-shadow(10px 9px 10px yellow);
+            }
+        </style>

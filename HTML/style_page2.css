@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,nav,main,footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+header{
+    background-color: #2e4053;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+}
+nav{
+    height: 40px;
+    background-color: #e5b45e;
+}
+ul{ 
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+ul li{
+    width: 75px;
+    background-color: #EEEEEE;
+    color: #201E43;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #201E43;
+}
+ul a:visited, ul a:link{
+    color: #134B70;
+}
+ul a:hover{
+    color: #508C9B;
+    font-weight: bolder;
+}
+main{
+    height: auto;
+    background-color: #e7debd;
+}
+footer{
+    height: 40px;
+    background-color: #2e4053;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+}
+section{
+    width: 800px;
+    background-color: #EEEEEE;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+p{
+    margin-bottom: 15px;
+}
+table{
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid blue;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.tabla1{
+    color: antiquewhite;
+    width: 800px;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: dimgrey;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color: coral;
+    color:azure;
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+}
+.tabla1 td, .tabla1 th{
+    border-color: dimgrey;
+    border-width: 7px;
+    border-style: solid;
+}
+#tabla2{
+    width: 800px;
+    border-collapse: collapse;
+}
+#tabla2 td, #tabla2 th{
+     border-color: #2b2d47;
+    border-width: 7px;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+}
+#tabla2 thead tr th{
+    background-color: #2b2d47;
+    color: aliceblue;
+}
+#tabla2 tbody tr:nth-child(even){
+    background-color: #b8bed0;
+    color: #2b2d47;
+    font-family: sans-serif;
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #f7e359;
+    color: #2b2d47;
+    font-family: sans-serif;
+}
+#tabla3{
+    width: 700px;
+    border-collapse: collapse;
+}
+#tabla3 tr td:hover{
+    background-color:blue;
+    color: aliceblue;
+}
+#tabla3 tr th, #tabla3 tr td{
+    border: 3px solid #f7e359;
+    padding: 6px;
+}
+#tabla3 thead th{
+    background-color: #2b2d47;
+    color: aliceblue;
+}
+#tabla3 tbody tr{
+    background-color: #f7e359;
+    font-family: sans-serif;
+    text-align: center;
+}
+#tabla4{
+    width: 1000px
+}
+form{
+    width: 40%;
+    padding: 50px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sixing:border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #79ae92;
+}
+label{
+    color: #1c5560;
+    font-weight: bolder;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #fcffcd;
+    color: #001f36;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.centrar{
+    text-align: center;
+}
+label{
+    color: #1c5560;
+    font-weight: bolder;
+}
+input[type=submit]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 30px;
+    background-color: #001f36;
+    color: #f0f8ff;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+#form2 #Pais{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fcffcd;
+    font-weight: bolder;
+    height: 5%;
+    border-radius: 10px;
+}
+#form2 #edad{
+    color: #001f36;
+    background-color: #fcffcd;
+    font-weight: bolder;
+    height: 5%;
+}

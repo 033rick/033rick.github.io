@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Formularios en html</title>
+        <link rel="stylesheet" href="style_page2.css" type="text/css">
+        <style type="text/css">
+            footer{
+                color: aliceblue;
+                font-size: 14pt;
+                font-family:sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formulario de ingreso</h2>
+                <p>Dentro de los siguientes apartados llenar lo siguiente, USUARIO: Colocar sólo el nombre, máximo 30 carácteres. CONTRASEÑA: máximo 6 carácteres sin signos.</p>
+                <form id="form1" name="form1" method="get">
+                    <div class="centrar">
+                        <label for="usuario">USUARIO</label>
+                        <input name="usuario" type="text" id="usuario" maxlength="30">
+                        <label for="pasword">CONTRASEÑA</label>
+                        <input name="password" type="password" id="password" maxlength="6">
+                        <input type="submit" name="submit" id="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer orci turpis, vulputate ut urna eget, dictum tincidunt nibh. Nunc ut tristique elit. Integer et ipsum venenatis, euismod nulla a, feugiat urna. Cras sed quam nec nunc congue aliquam et ac nibh. Vivamus consequat condimentum porta. Morbi maximus libero ut convallis.</p>
+                 <form id="form2" name="form2" method="get">
+                    <div class="centrar">
+                        <label for="nombre">NOMBRE</label>
+                        <input name="nombre" type="text" id="nombre" maxlength="30">
+                        <label for="apellido">APELLIDO</label>
+                        <input name="apellido" type="text" id="apellido" maxlength="30">
+                        <label for="edad">EDAD</label>
+                        <input name="edad" type="number" id="edad" max="100" min="18">
+                        <label for="Pais">SELECT</label>
+                        <select name="Pais" id="Pais">
+                            <option value="argentina">ARGENTINA</option>
+                            <option value="bolivia">BOLIVIA</option>
+                            <option value="colombia">COLOMBIA</option>
+                            <option value="mexico">MÉXICO</option>
+                            <option value="italia">ITALIA</option>
+                            <option value="francia">FRANCIA</option>
+                            <option value="noruega">NORUEGA</option>
+                        </select>
+                        <input type="submit" name="submit" id="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h2>Formulario</h2>
+                <p>
+                    <label>Género:</label>
+                        <label><input type="radio" name="Genero" value="masculino" id="Genero">MASCULINO</label>
+                        <label><input type="radio" name="Genero" value="femenino" id="Genero">FEMENINO</label>
+                </p>
+                <p>
+                    <label>Género musical:</label>
+                        <label><input type="checkbox" name="Genero musical" value="pop" id="Genero musical">POP</label>
+                        <label><input type="checkbox" name="Genero musical" value="rock" id="Genero musical">ROCK</label>
+                        <label><input type="checkbox" name="Genero musical" value="jazz" id="Genero musical">JAZZ</label>
+                        <label><input type="checkbox" name="Genero musical" value="banda" id="Genero musical">BANDA</label>
+                        <label><input type="checkbox" name="Genero musical" value="metal" id="Genero musical">METAL</label>
+                </p>
+                <p>
+                    <input name="submit" type="submit" id="submit" value="Enviar">
+                </p>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Erick Sánchez Ramírez</h5>
+        </footer>
+    </body>
+</html>
