@@ -1,1 +1,0 @@
-# 033rick.github.io
